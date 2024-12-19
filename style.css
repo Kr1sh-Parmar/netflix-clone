@@ -1,0 +1,362 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.main
+{
+    background-image: url("imgs/back\ ground.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+    position: relative;
+
+
+}
+
+
+
+.main .box{
+    height: 644px;
+    width: 100%;
+    opacity: .69;
+    background-color: black;
+    top: 0%;
+    position: absolute;
+}
+
+body {
+    background-color: black;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 60vw;
+    margin: auto;
+    height: 100px;
+
+
+}
+
+
+
+nav img {
+    
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+
+}
+
+.btn {
+    
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 400;
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+
+.but {
+    border-radius: 10px;
+    width: 70px;
+    margin : 40px;
+    height: 40px;
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+    
+
+}
+
+
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+    z-index: 10;
+}
+
+.hero> :nth-child(2) {
+    font-family: 'Poppins', sans-serif;
+    
+    font-size: 38px;
+    text-align: center;
+    z-index: 7;
+}
+
+
+.hero> :nth-child(3) {
+    font-family: 'Poppins', sans-serif;
+    
+    font-size: 18px;
+    text-align: center;
+    z-index: 7;
+}
+
+
+.butt{
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 6px;
+    font-weight: 400;
+    background-color: red;
+    border-color: red;
+    height: 50px;
+    width: 200px;
+    border-width: 0px;
+    margin-left: 30px;
+    animation: forwards;
+
+}
+
+
+.xyz{
+    border-radius: 10px;
+    width: 270px;
+    z-index: 0;
+    height: 40px;
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+
+.hero-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.sep{
+    
+    height: 5px;
+    background-color: rgb(255, 36, 124);
+    border-top-left-radius: 200%;
+    border-top-right-radius: 200%;
+
+
+
+
+    
+}
+
+
+.sec-1{
+    height: 50px;
+    
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 28px;
+    z-index: 10;
+
+
+}
+
+.region{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    border: 2px solid;
+    border-color: white;
+    background-color: black;
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 7px;
+    margin: 10px;
+    height: auto;
+    padding: 10px;
+}
+
+
+.region button{
+    background-color: black;
+    color: white;
+    width: 90px;
+    
+
+}
+
+
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    height: 100px;
+}
+
+.content button {
+    height: 90px;
+    width: 300px;
+    font-size: larger;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 124px;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    
+
+}
+
+.content button:hover{
+    background-color: #ff0000; 
+    color: #000;              
+  }
+
+
+
+
+section{
+   
+    margin :30px;
+    
+    margin-top: 200px;
+    
+}
+
+
+
+
+.reasons-container {
+    justify-content: space-evenly;
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    gap: 20px;
+}
+
+.title {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.reason-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(rgb(98, 3, 98), #1b0c22, #2b0e34);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    color: white;
+    height: 250px;
+    width: 100%;
+}
+
+
+h2{
+    color: white;
+    ;
+}
+
+.reasons-container h3{
+    font-size: 2.3rem;
+}
+
+
+.reasons-container .icon{
+    margin-top: auto;
+    
+}
+
+
+
+.foot-p1{
+    background-color: black;
+    color: #F3F3F3;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+
+
+}
+
+footer{
+    margin-top:15px ;
+    height: 50px;
+
+}
+
+
+.p2{
+    background-color: black;
+    color: white;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;         
+}
+
+
+.se{
+    height: 1px;
+    background-color: white;
+}
+
+
+
